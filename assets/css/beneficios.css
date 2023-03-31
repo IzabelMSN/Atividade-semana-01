@@ -1,0 +1,21 @@
+.beneficios{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beneficios__flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.beneficios__flex-sep{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.beneficios__flex-sep li{
+    font-size: 25px;
+    line-height: 45px;
+    list-style: url(../img/icones/estrela.png);
+}

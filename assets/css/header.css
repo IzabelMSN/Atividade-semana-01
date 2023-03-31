@@ -1,0 +1,40 @@
+header{
+    background-color: #2f2f2f;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 300px;
+    height: 95px;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-texto{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: rgb(255, 214, 139);
+}
+
+#nav-texto:hover{
+    text-decoration: underline;
+    color: rgb(255, 214, 139);
+}    
+

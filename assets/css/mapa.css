@@ -1,0 +1,9 @@
+.mapa{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #efefef, #dfdfdf, #cfcfcf, #c0c0c0, #c0c0c0, #c0c0c0, #c0c0c0, #cfcfcf, #dfdfdf, #efefef, #ffffff);
+}
+
+iframe{
+    position: relative;
+    left: 10%;
+}    
