@@ -35,25 +35,29 @@
         <section class="estilos">
             <h1><strong>Estilos que trabalhamos</strong></h1>
             <div class="estilo-flex">
-                <div class="estilo-sep">
+                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
                     <div class="estilo-sombra"></div>
                     <img src="./assets/img/tattoos/pontilhismo.jpg" alt="Pontilhismo">
                     <h3>Pontilhismo</h3>
+                    <span class="estilo-tatuador"></span>
                 </div>
-                <div class="estilo-sep">
+                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
                     <div class="estilo-sombra"></div>
                     <img src="./assets/img/tattoos/geometrico.jpg" alt="Geométrico">
                     <h3>Geométrico</h3>
+                    <span class="estilo-tatuador geo"></span>
                 </div>
-                <div class="estilo-sep">
+                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
                     <div class="estilo-sombra"></div>
                     <img src="./assets/img/tattoos/blackwork.jpg" alt="Blackwork">
                     <h3>Blackwork</h3>
+                    <span class="estilo-tatuador black"></span>
                 </div>
-                <div class="estilo-sep">
+                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
                     <div class="estilo-sombra"></div>
                     <img src="./assets/img/tattoos/tinta-vermelha.jpg" alt="Tinta Vermelha">
                     <h3>Tinta Vermelha</h3>
+                    <span class="estilo-tatuador ver"></span>
                 </div>
             </div>
         </section>
@@ -169,7 +173,7 @@
                 <label for="message">Você tem alguma alergia?</label>
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-                <button type="submit" id="agendamento__flex-botao">Solicitar Agendamento</button>
+                <button type="submit" id="agendamento__flex-botao" class="botaoS" onclick="submetido()">Solicitar Agendamento</button>
             </form>
         </section>
     </main>
@@ -183,6 +187,8 @@
 
         <p id="copy">&copy;Nano Tatttoo 2012. Todos os direitos reservados</p>
     </footer>
+
+    <script src="./assets/js/11/exerc-11.js"></script>
 </body>
 
 </html>
