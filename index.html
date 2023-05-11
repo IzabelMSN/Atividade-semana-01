@@ -7,10 +7,11 @@
     <meta name="keywords" content="tattoo,tatoo,tatto,caveira-tattoo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Izabel Nascimento">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/common.css">
-    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
     <link rel="stylesheet" href="./assets/css/equipe.css">
     <link rel="stylesheet" href="./assets/css/mapa.css">
     <link rel="stylesheet" href="./assets/css/beneficios.css">
@@ -34,33 +35,42 @@
     <main>
         <section class="estilos">
             <h1><strong>Estilos que trabalhamos</strong></h1>
-            <div class="estilo-flex">
-                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
-                    <div class="estilo-sombra"></div>
-                    <img src="./assets/img/tattoos/pontilhismo.jpg" alt="Pontilhismo">
-                    <h3>Pontilhismo</h3>
-                    <span class="estilo-tatuador"></span>
-                </div>
-                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
-                    <div class="estilo-sombra"></div>
-                    <img src="./assets/img/tattoos/geometrico.jpg" alt="Geométrico">
-                    <h3>Geométrico</h3>
-                    <span class="estilo-tatuador geo"></span>
-                </div>
-                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
-                    <div class="estilo-sombra"></div>
-                    <img src="./assets/img/tattoos/blackwork.jpg" alt="Blackwork">
-                    <h3>Blackwork</h3>
-                    <span class="estilo-tatuador black"></span>
-                </div>
-                <div class="estilo-sep" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
-                    <div class="estilo-sombra"></div>
-                    <img src="./assets/img/tattoos/tinta-vermelha.jpg" alt="Tinta Vermelha">
-                    <h3>Tinta Vermelha</h3>
-                    <span class="estilo-tatuador ver"></span>
-                </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
+                            <div class="estilo-sombra"></div>
+                            <img src="./assets/img/tattoos/pontilhismo.jpg" alt="Pontilhismo">
+                            <h3>Pontilhismo</h3>
+                            <span class="estilo-tatuador"></span>
+                    </div>
+                    <div class="swiper-slide" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
+                        <div class="estilo-sombra"></div>
+                        <img src="./assets/img/tattoos/geometrico.jpg" alt="Geométrico">
+                        <h3>Geométrico</h3>
+                        <span class="estilo-tatuador geo"></span>
+                    </div>
+                    <div class="swiper-slide" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
+                        <div class="estilo-sombra"></div>
+                        <img src="./assets/img/tattoos/blackwork.jpg" alt="Blackwork">
+                        <h3>Blackwork</h3>
+                        <span class="estilo-tatuador black"></span>
+                    </div>
+                    <div class="swiper-slide" onmouseover="nomeTaduador()" onmouseout="nomeTaduadorSai()">
+                        <div class="estilo-sombra"></div>
+                        <img src="./assets/img/tattoos/tinta-vermelha.jpg" alt="Tinta Vermelha">
+                        <h3>Tinta Vermelha</h3>
+                        <span class="estilo-tatuador ver"></span>
+                    </div>
+                </div>  
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
             </div>
-        </section>
+        </section>     
 
         <section class="equipe">
             <h2><em>Nossa Equipe</em></h2>
@@ -187,8 +197,10 @@
 
         <p id="copy">&copy;Nano Tatttoo 2012. Todos os direitos reservados</p>
     </footer>
-
+    
     <script src="./assets/js/11/exerc-11.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/12/exerc-12.js"></script>
 </body>
 
 </html>

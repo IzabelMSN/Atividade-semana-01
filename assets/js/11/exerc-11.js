@@ -1,6 +1,6 @@
 /*11 - Crie 3 eventos usando o “addEventListener” do Javascript no site criado por vocês no treinamento de HTML e CSS. 
 Esses eventos devem fazer sentido dentro do site.*/
-let tatuador = document.querySelector('.estilo-sep');
+let tatuador = document.querySelector('.swiper-slide');
 
 
 tatuador.addEventListener("mouseover", function nomeTaduador() {
