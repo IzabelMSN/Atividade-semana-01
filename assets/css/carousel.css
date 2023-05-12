@@ -1,6 +1,5 @@
 .swiper{
-    height: 50vw;
-    height: 24vw;
+    height: 585px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,20 +9,20 @@
 
 .estilo-sombra{
    background-color: rgba(0, 0, 0, 0.28);
-   width: 90vw;
-   height: 60vw;
+   width: 585px;
+   height: 585px;
    position: absolute;
 }
 
 .swiper-slide{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
 .swiper-slide img{
-    width: 24vw;
-    height: 30vw;
+    width: 585px;
+    height: 585px;
 }
 
 .swiper-slide h3{
@@ -44,4 +43,8 @@
     text-align: center;
     position: relative;
     bottom: 45%;   
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
 }
